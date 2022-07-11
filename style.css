@@ -6,8 +6,12 @@ body{
 h1{
     font-size: 60px;
 }
-p{
+h2{
+    font-size: 50px;
+}
+.header-desc p{
     font-size: 25px;
+    margin-bottom: 40px;
 }
 header{
 
@@ -29,4 +33,33 @@ header{
     padding: 15px;
     border-radius: 10px;
     font-weight: 600;
+}
+#explore-sec{
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 80%;
+    padding: 20px;
+}
+.desc-div{
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.explore-desc p{
+    margin-bottom: 40px;
+}
+#explore-sec2{
+    height: 100vh;
+    display: flex;
+}
+.explore-desc2 p{
+    margin-bottom: 40px;
+}
+.desc-div2{
+    margin-right: 20%;
 }
